@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Global Suite">
+    <listeners>
+        <listener class-name="org.testng.RobotFrameworkListener"/>
+    </listeners>
+
+    <test name="Suite 1">
+        <classes>
+            <class name="integration.Test1"/>
+            <class name="integration.Test2"/>
+        </classes>
+    </test>
+
+    <test name="Suite 2">
+        <classes>
+            <class name="integration.Test1"/>
+            <class name="integration.Test2"/>
+        </classes>
+    </test>
+
+    <test name="Suite 3">
+        <classes>
+            <class name="integration.Test3"/>
+            <class name="Test4"/>
+        </classes>
+    </test>
+
+</suite>
+
